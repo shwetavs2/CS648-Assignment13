@@ -8,7 +8,7 @@ class Products extends Component {
         super(props)
         this.state = {
             filterText: '',
-            products: PRODUCTS
+            products: []
         }
         this.handleFilter = this.handleFilter.bind(this)
         this.handleDestroy = this.handleDestroy.bind(this)
