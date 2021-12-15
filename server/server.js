@@ -34,12 +34,12 @@ let object = {
 }   
 
 let objects = {
-    '1': {id: 1, category: 'Music', price: '$50', name: 'Clarinet'},
+    '1': {id: 1, category: 'Music', price: '$500', name: 'Clarinet'},
     '2': {id: 2, category: 'Music', price: '$5,000', name: 'Cello'},
     '3': {id: 3, category: 'Music', price: '$3,500', name: 'Tuba'},
     '4': {id: 4, category: 'Furniture', price: '$709', name: 'Lounge Seat'},
-    '5': {id: 5, category: 'Furniture', price: '$1,320', name: 'Table'},
-    '6': {id: 6, category: 'Furniture', price: '$110', name: 'Bag'}
+    '5': {id: 5, category: 'Furniture', price: '$1,300', name: 'Table'},
+    '6': {id: 6, category: 'Furniture', price: '$100', name: 'Bag'}
 };
 
 app.get('/product/get/', function (req, res) {
